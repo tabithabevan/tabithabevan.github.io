@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<!-- This document displays the home page for the bike shop website -->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Tri Our Bikes Bikeshop</title>
+        <link rel = "stylesheet" href = "styles/bike_shop.css">
+        <link rel="stylesheet" href="styles/slicknav.css"> 
+        <link rel="shortcut icon" href="images/faviconfinal.png">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="js/jquery.slicknav.min.js"></script> 
+        <script type="text/javascript"> 
+            $(document).ready(function(){
+                $('#nav_menu').slicknav({prependTo:"#mobile_menu"}); 
+            }); 
+        </script>
+        <!-- Meta description and keywords for SEO -->
+        <meta name="description" content = "A bike shop designed for triathletes"> 
+        <meta name="keywords" content = "bikes, cycle, triathlete, triathlon, endurance, Diamondback Haanjo 2, Fuji Transonic 2.3, Canyon Neuron 5, Marlin+ 8,">
+        
+        <!-- Comment area with name, university, date developed, date tested
+        Name: Tabitha Bevan 
+        University: Southern Illinois University, Carbondale 
+        Date Developed: September 1, 2024 
+        Date Tested:September 1, 2024 
+        -->
+        
+    </head>
+    <body>
+        <!-- image of man riding bike; inline element -->
+        <header>
+            <p id="image1" ></p>
+            
+            <!--<img src="images/man.riding.bike.png" class="man-riding-bike" alt= "man racing on bike" width="315"-->
+            
+        <!-- header with bike shop name + pitch -->
+        </header><br>
+        <h1>Tri Our Bikes Bikeshop</h1>
+            <!-- Navigation Menu -->
+        <nav id="mobile_menu"></nav> 
+        <nav id="nav_menu"> 
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li> 
+                <li><a href="sales.htm">Sales</a></li>
+                <li><a href="rentals.htm" >Rentals</a></li>
+                <li><a href="services.htm" >Services</a></li> 
+                <li><a href="contact.htm" class="lastitem">Contact</a></li>
+            </ul> 
+        </nav>
+          
+        <h2>Finding your next triathlon bike is as easy as...riding a bike!</h2>
+        <p>Whether you're looking to race your first triathlon or already have a few triathlons under your belt, we have the perfect triathlon bike for you! Don't be afraid to give us a <strong>tri!</strong>
+        </p>    
+        
+        <p><em>Listen to the sound of our high-quality gears:</em><audio src="images/gearchange.mp3" class= "gear-change"
+                autoplay
+                controls   
+            ></audio>
+        
+        </p>
+        
+        <p>We carry four distinct models; two street bikes and two mountain bikes! </p>
+        
+        <!-- list of bikes; inline element -->
+        <strong><ol>
+            <li><strong>Diamondback Haanjo 2</strong></li> <li><strong>Fuji Transonic 2.3</strong></li> <li><strong>Canyon Neuron 5</strong></li> <li><strong>Marlin+ 8</strong></li>
+        </ol></strong>
+            
+            <!-- block quote -->
+            <p><Now through> </Now><strong>October 31st</strong>, take <strong>10%</strong> off your purchase with code: <em>TRIckortreat</em><!--<img src="images/bat%20image.webp" class="bats" width="120"-->
+            </p>
+            <!-- list of social media links -->
+            <p>For more information about our newest arrivals, up close bike tours, and triathlon biking tips, follow our social media:
+            </p>
+            <ul>
+                <li><a href= "https://www.instagram.com/triourbikes/">Tri Our Bikes Instagram</a></li> 
+                <li><a href= "https://www.tiktok.com/triourbikes/">Tri Our Bikes Tiktok</a></li> 
+                <li><a href="https://www.twitter.com/triourbikes/">Tri Our Bikes Twitter</a> </li>
+            </ul>
+            
+            <!-- contact information -->
+            <p>Still have questions? Contact Tabitha Bevan &amp; Staff:</p> 
+            <address>1-800-234-5678<br>
+            <a href="emailto:triourbikes@gmail.com"> triourbikes@gmail.com</a> </address>
+            <!-- store location -->       
+    <pre>123 Trident Drive 
+St. Louis, MO
+63043</pre>
+    </body>
+</html>
